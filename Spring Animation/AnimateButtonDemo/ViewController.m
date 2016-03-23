@@ -47,28 +47,6 @@
     }];
 }
 
-/*
- 
 
-
- func animateButton() {
- AudioServicesPlaySystemSound(bubbleSound)
- button.transform = CGAffineTransformMakeScale(0.1, 0.1)
- 
- UIView.animateWithDuration(durationStepper.value,
- delay: 0,
- usingSpringWithDamping: CGFloat(dampingStepper.value),
- initialSpringVelocity: CGFloat(velocityStepper.value),
- options: UIViewAnimationOptions.AllowUserInteraction,
- animations: {
- self.button.transform = CGAffineTransformIdentity
- },
- completion: { finished in
- self.animateButton()
- }
- )
- }
- 
- */
 
 @end
